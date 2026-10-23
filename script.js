@@ -195,10 +195,50 @@ navLinks.forEach((link) => {
   });
 });
 
-contactForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-  formMessage.textContent = 'Message sent successfully! Thank you for reaching out.';
-  contactForm.reset();
+
+const EMAILJS_SERVICE_ID = 'service_6jno3dd';
+const EMAILJS_TEMPLATE_ID = 'template_0wmnozg';
+const EMAILJS_PUBLIC_KEY = 'n4cTwAYXiX2UO9DMS';
+
+emailjs.init({
+  publicKey: EMAILJS_PUBLIC_KEY
 });
+
+contactForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  if (!name || !email || !message) {
+    formMessage.textContent = 'Please fill in all fields.';
+    return;
+  }
+
+  const submitButton = contactForm.querySelector('button[type="submit"]');
+  submitButton.disabled = true;
+  submitButton.textContent = 'Sending...';
+  formMessage.textContent = '';
+
+  try {
+    await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+      from_name: name,
+      from_email: email,
+      message: message
+    });
+
+    formMessage.textContent = 'Message sent successfully! Thank you for reaching out.';
+    contactForm.reset();
+  } catch (error) {
+    console.error('EmailJS error:', error);
+    formMessage.textContent = 'Sorry, your message could not be sent. Please try again.';
+  } finally {
+    submitButton.disabled = false;
+    submitButton.textContent = 'Send Message';
+  }
+});
+
+
 
 setPersonalInfo();
