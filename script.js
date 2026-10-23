@@ -42,7 +42,7 @@ const siteData = {
   socials: [
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/pushpa-topno-428a8b420?utm_source=share_via&utm_content=profile&utm_medium=member_android', comment: 'Add LinkedIn URL here' },
     { label: 'GitHub', url: 'https://github.com/devbypushpa', comment: 'Add GitHub URL here' },
-    { label: 'Resume', url: '#', comment: 'Add Resume PDF here' }
+    { label: 'Resume', url: 'https://drive.google.com/file/d/1jlehrDqHY4RleK3_RjVVkKRSHjLEAVce/view?usp=sharing', comment: 'Add Resume PDF here' }
   ]
 };
 
