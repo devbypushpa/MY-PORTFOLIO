@@ -14,8 +14,8 @@ const siteData = {
       title: 'Personal Portfolio Website',
       description: 'Create a polished portfolio to showcase skills, experience, and projects.',
       tech: 'HTML • CSS • JavaScript',
-      github: '#',
-      live: '#'
+      github: 'https://github.com/devbypushpa'',
+      live: 'https://devbypushpa.github.io/MY-PORTFOLIO/'
     },
     {
       title: 'Responsive Landing Page',
