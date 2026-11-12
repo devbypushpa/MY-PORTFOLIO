@@ -10,7 +10,7 @@ const siteData = {
 {
   name: 'Python',
   description: 'Basic Python programming, variables, data types, conditions, and problem-solving.',
-  level: 89}
+  level: 89},
 
     { name: 'HTML', description: 'Semantic structure, accessibility, and modern markup.', level: 92 },
     { name: 'CSS', description: 'Responsive layouts, animations, and modern styling.', level: 88 }
