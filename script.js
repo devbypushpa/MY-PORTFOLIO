@@ -6,15 +6,10 @@ const siteData = {
   location: 'India',
   focus: 'Software development',
   skills: [
-    
-{
-  name: 'Python',
-  description: 'Basic Python programming, variables, data types, conditions, and problem-solving.',
-  level: 89},
-
-    { name: 'HTML', description: 'Semantic structure, accessibility, and modern markup.', level: 92 },
-    { name: 'CSS', description: 'Responsive layouts, animations, and modern styling.', level: 88 }
-  ],
+  { name: 'Python', description: 'Basic programming, variables, data types, conditions, and problem-solving.', level: 40 },
+  { name: 'HTML', description: 'Semantic structure, accessibility, and modern markup.', level: 92 },
+  { name: 'CSS', description: 'Responsive layouts, animations, and modern styling.', level: 88 }
+],
   projects: [
     {
   title: 'Personal Portfolio Website',
