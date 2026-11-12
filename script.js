@@ -11,12 +11,12 @@ const siteData = {
   ],
   projects: [
     {
-      title: 'Personal Portfolio Website',
-      description: 'Create a polished portfolio to showcase skills, experience, and projects.',
-      tech: 'HTML • CSS • JavaScript',
-      github: 'https://github.com/devbypushpa/MY-PORTFOLIO',
-      live: 'https://devbypushpa.github.io/MY-PORTFOLIO/'
-    },
+  title: 'Personal Portfolio Website',
+  description: 'A responsive personal portfolio showcasing my skills, projects, and web development journey.',
+  tech: 'HTML • CSS • JavaScript',
+  github: 'https://github.com/devbypushpa/MY-PORTFOLIO',
+  live: 'https://devbypushpa.github.io/MY-PORTFOLIO/'
+},
     {
       title: 'Responsive Landing Page',
       description: 'Build a modern landing page optimized for mobile and desktop devices.',
