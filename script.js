@@ -4,7 +4,7 @@ const siteData = {
   tagline: 'Building modern and user-friendly web experiences while continuously learning and growing in the world of technology.',
   email: 'pushpatopno037@gmail.com',
   location: 'India',
-  focus: 'Front-end development',
+  focus: 'Software development',
   skills: [
     
 {
