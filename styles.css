@@ -703,30 +703,27 @@ a {
     }
 }
 
-
 .project-preview-link {
   display: block;
   width: 100%;
-  height: 200px;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 18px;
   margin-bottom: 18px;
+  background: #080f20;
 }
 
 .project-preview-image {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
+  object-position: center;
   border-radius: 18px;
-  transition: transform 0.3s ease;
 }
 
+/* Hover effect */
 .project-preview-link:hover .project-preview-image {
-  transform: scale(1.04);
-}
-.project-preview-link:hover .project-preview-image {
-  transform: scale(1.04);
+  transform: none;
 }
 
