@@ -34,9 +34,9 @@ const siteData = {
     }
   ],
   futureGoals: [
-    'Learning JavaScript and modern front-end development patterns.',
-    'Learning Git and GitHub for version control and collaboration.',
-    'Expanding web development skills with responsive design and accessibility.',
+    'Become a Skilled Software Engineer.',
+    'Explore Artificial Intelligence.',
+    'Build Innovative AI Systems',
     'Building real-world projects to strengthen practical experience.',
     'Preparing for opportunities in the tech industry with dedication and growth.'
   ],
